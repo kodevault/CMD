@@ -1,0 +1,1 @@
+type C:\Users\NEKKO\Desktop\script\disklog_adapted.txt > C:\disklog.txt
