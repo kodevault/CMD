@@ -1,0 +1,20 @@
+Open 'IExpress Wizard' as admin.
+
+    Select 'Create new Self Extraction Directive file'
+    Select 'Extract files and run an installation command'
+    Name the package anything
+    'No prompt' 
+    'Do not display a license'
+    Click 'Add' and select the bat/cmd file
+    Then in 'Install Program' text box for 'Install Program to Launch', type cmd /c, followed by the full name of the bat/cmd file, (example: emptyrecyclebin.bat => cmd /c emptyrecyclebin.bat)
+    Leave the 'Post Install Command' as is
+    'Hidden' 
+    'No message' 
+    Click 'Browse', and select where to destination for the exe 
+    Enable 'Hide File Extracting Progress Animation from User'
+    Disable 'Store files using Long File Name inside Package'
+    Definitely 'No restart' 
+    Then save SED if you want to re-compile it quicker later
+    Then create the package! A command window should quickly appear and disappear
+    Navigate to the place where you downloaded the exe to, and enjoy!
+
