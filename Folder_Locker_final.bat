@@ -5,7 +5,7 @@ SETLOCAL EnableDelayedExpansion
 IF EXIST 4815162342 (	
 	echo Intentos restantes: 1
 	set /p "pass="	
-	IF /I "!pass!" NEQ "patata" (
+	IF /I "!pass!" NEQ "23fcarlos" (
 		echo Error 403.
 		timeout 3
 		exit
